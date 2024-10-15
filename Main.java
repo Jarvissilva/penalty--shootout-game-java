@@ -16,7 +16,8 @@ public class PenaltyShootoutGame extends JFrame {
         setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
-
+        setResizable(false);
+        
         JLabel goalBackground = new JLabel(new ImageIcon("img/goal.png"));
         goalBackground.setLayout(null);
         add(goalBackground, BorderLayout.CENTER);
